@@ -433,7 +433,7 @@ def init_session():
 
 # ========= 主界面 =========
 def main():
-    st.set_page_config(page_title="刷题小玩意儿-川", page_icon="🧠", layout="wide")
+    st.set_page_config(page_title="川的刷题小玩意儿", page_icon="🧠", layout="wide")
     init_session()
     init_db()
     import_csv_if_empty()
@@ -515,7 +515,7 @@ def main():
         </style>
     """, unsafe_allow_html=True)
 
-    st.markdown('<div class="main-title">刷题小玩意儿-川</div>', unsafe_allow_html=True)
+    st.markdown('<div class="main-title">川的刷题小玩意儿</div>', unsafe_allow_html=True)
     st.markdown('<div class="sub-title">章节刷题 · 错题重刷 · 随机刷题 · 模拟考核</div>', unsafe_allow_html=True)
 
     # 侧边栏
